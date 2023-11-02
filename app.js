@@ -15,7 +15,7 @@ var app = express();
 app.get("/nonce", nonce)
 app.get("/verdict", tokenVerdict);
 
-app.listen(3000, function () {
+app.listen(3030, function () {
   console.log("Listening on port 3000!");
 });
 
